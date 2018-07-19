@@ -43,8 +43,8 @@ AndroidAPS is an app that can communicate with bluetooth-enabled insulin pumps, 
    :maxdepth: 2
    :glob:
    
-   Before you Start </Before-you-start/index>
-   Understanding AndroidAPS </Understanding_AndroidAPS/index>
+   /Before-you-start/index
+   /Understanding_AndroidAPS/index
    Designing your rig </Designing_Your_Rig/index>
    Nightscout </Nightscout/index>
    Building the AndroidAPS Software </AndroidAPSsoftware/index>

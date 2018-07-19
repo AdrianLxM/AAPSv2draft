@@ -58,7 +58,7 @@ Understanding AndroidAPS
    
    General Description
    
-   AndroidAPSScreenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
+   AndroidAPS Screenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
    AndroidAPS settings explained
    Architecture security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
    Advanced Features

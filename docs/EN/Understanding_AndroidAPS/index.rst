@@ -2,7 +2,6 @@
 .. toctree::
    :maxdepth: 2
    :glob:
-   :caption: Understanding AndroidAPS
 
    AndroidAPS screenshots explained </Understanding_AndroidAPS/Screenshots>
    AndroidAPS settings explained </Understanding_AndroidAPS/Preferences>

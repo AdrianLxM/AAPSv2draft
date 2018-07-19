@@ -64,7 +64,6 @@ Understanding AndroidAPS
    Architecture, security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
    Advanced Features
    OpenAPS Features </EN/Understanding_AndroidAPS/Open-APS-features.md>
-
    Pump choices </EN/Understanding_AndroidAPS/Pump-Choices.md>
    Future possible pump drivers  </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
    Glossary </EN/Understanding_AndroidAPS/Glossary.md>

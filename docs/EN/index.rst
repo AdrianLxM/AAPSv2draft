@@ -58,13 +58,13 @@ Understanding AndroidAPS
    
    General Description
    
-   Screenshots screenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
+   AndroidAPSScreenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
    AndroidAPS settings explained
-   Architecture, security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
+   Architecture security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
    Advanced Features
    OpenAPS Features </EN/Understanding_AndroidAPS/Open-APS-features.md>
    Pump choices </EN/Understanding_AndroidAPS/Pump-Choices.md>
-   Future possible pump drivers  </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
+   Future possible pump drivers </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
    Glossary </EN/Understanding_AndroidAPS/Glossary.md>
 
 Designing Your Rig

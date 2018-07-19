@@ -8,7 +8,5 @@ Designing Your Rig
    A Typical Rig 
    Choosing Your Pump <Pump-Choices.md>
    Blood Glucose Source <BG-Source.md>
-   Choosing a Phone <phones.md>
-   Adding a Smartwatch <watchfaces.md>
-
-
+   Choosing a Phone <Phones.md>
+   Adding a Smartwatch <Watchfaces.md>

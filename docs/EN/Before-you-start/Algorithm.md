@@ -34,13 +34,19 @@ Actual glucose measurements made by a continuous glucose monitor.
 #### Insulin Sensitivity (ISF)
 A configuration value that provides an estimate of how much blood glucose will drop given a unit of insulin.
 
+## Glucose Prediction⌁
+AndroidAPS makes a new glucose prediction every five minutes by computing the effects of insulin that has been administered from the pump, and carbohydrate records that have been entered into Loop. Two additional terms, glucose momentum, and optionally retrospective correction will also be used.
+
+You can see the individual contributions of these effects by tapping on the predicted glucose graph on Loop's status screen.
+
 ## Temp Basal Adjustments
 If blood glucose is predicted to stray outside of the desired target range, Loop will adjust the basal rate temporarily in an attempt to keep actual blood glucose in range. To illustrate how it does this, we’ll go through a few examples.
 
 ### Eventual BG Above Correction Range
 
 ![](../images/eventual_bg_above_range.png)
-Eventual BG Above Range
+
+Fig 2. Eventual BG Above Range
 
 When eventual BG is predicted to go above the current correction range, Loop will calculate a delta from eventual bg to the midpoint of the correction range. Using the currently scheduled insulin sensitivity factor, loop calculates a temporary basal rate above your currently scheduled basal rate that would deliver, over 30 minutes, enough insulin to bring glucose levels back into range, capped at the max basal rate.
 
@@ -48,13 +54,13 @@ When eventual BG is predicted to go above the current correction range, Loop wil
 
 ![](../images/eventual_bg_below_range.png)
 
-Eventual BG Below Range
+Fig 3. Eventual BG Below Range
 
 When eventual BG is predicted to go below the current correction range, Loop will calculate a delta from eventual bg to the midpoint of the correction range. Using the currently scheduled insulin sensitivity factor, loop calculates a temporary basal rate below your currently scheduled basal rate that would reduce insulin delivery, over 30 minutes, enough to bring glucose levels back into range. It will reduce delivery to zero if needed.
 
 ### Temporary Excursion Below Range
 
-![](../images/temporary_excursion_below_range.png)
+Fig 4. ![](../images/temporary_excursion_below_range.png)
 
 
 Eventual BG Below Range
@@ -65,7 +71,7 @@ If the prediction has a temporary excursion below range, but Eventual BG is in r
 
 ![](../images/min_bg_below_guard.png)
 
-Min BG Below Guard
+Fig 5. Min BG Below Guard
 
 If Minimum BG drops below Suspend Threshold, Loop will zero temp your pump regardless of where Eventual BG is.
 
@@ -77,13 +83,9 @@ The forecast used for bolusing is slightly different than the forecast used for 
 
 ### Eventual BG Above Correction Range
 
-![Eventual BG Above Correction Range](../images/bolus_eventual_above_range.png)
+Fig 6. ![Eventual BG Above Correction Range](../images/bolus_eventual_above_range.png)
 
 Fig 2. Eventual BG Above Range
 
 A bolus recommendation is given if Eventual BG is above Correction Range. The delta between Eventual BG and the top of the Correction Range is used, along with your current Insulin Sensitivity to calculate the recommendation.
 
-## Glucose Prediction⌁
-Loop makes a new glucose prediction every five minutes by computing the effects of insulin that has been administered from the pump, and carbohydrate records that have been entered into Loop. Two additional terms, glucose momentum, and optionally retrospective correction will also be used.
-
-You can see the individual contributions of these effects by tapping on the predicted glucose graph on Loop's status screen.

@@ -52,3 +52,113 @@ Configuring Your Rig </EN/configuration/index>
 Troubleshooting </EN/troubleshooting/index>
 Where to go for help </EN/Where-To-Go-For-Help/index>
 
+
+<!--- Before You Start
+----------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+<<<<<<< HEAD
+   
+   
+   Safety First </EN/Before-you-start/Safety-first.md>
+   Understanding the Algorithm </EN/Before-you-start/Algorithm.md>
+   Reading List </EN/Before-you-start/Reading_List.md>
+   Glossary </EN/Before-you-start/Glossary.md>
+=======
+   Before you Start </EN/Before-you-start/index>
+>>>>>>> f421e5f6083fe81bcdbcfa3d11531fc905bc767b
+
+Understanding AndroidAPS
+----------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   
+   General Description
+   
+   AndroidAPS Screenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
+   AndroidAPS settings explained
+   Architecture security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
+   Advanced Features
+   OpenAPS Features </EN/Understanding_AndroidAPS/Open-APS-features.md>
+   Pump choices </EN/Understanding_AndroidAPS/Pump-Choices.md>
+   Future possible pump drivers </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
+   Glossary </EN/Understanding_AndroidAPS/Glossary.md>
+
+Designing Your Rig
+----------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   
+   A Typical Rig
+   
+   Choosing Your Pump </EN/Designing_Your_Rig/Pump-Choices.md>
+   Blood Glucose Source </EN/Designing_Your_Rig/BG-Source.md>
+   Choosing a Phone </EN/Designing_Your_Rig/phones.md>
+   Adding a Smartwatch </EN/Designing_Your_Rig/watchfaces.md>
+
+Nightscout
+----------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+        
+   Build Your Own
+   Using www.ns.10be.de 
+
+  
+Building the AndroidAPS Software
+------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   What you will need
+   Building the APK </EN/AndroidAPSsoftware/Building-APK.md>
+   Linking to your pump and CGM
+   Linking to Nightscout </EN/AndroidAPSsoftware/Nightscout.md>
+   Updating your app </EN/Update-to-new-version.md>
+   
+Configuring Your Rig 
+---------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   
+   Config Builder </EN/Configuration/Config-Builder.md>
+   BG Source</EN/Configuration/BG-Source.md>
+   DanaR </EN/Configuration/DanaR-Insulin-Pump.md>
+   DanaRS </EN/Configuration/DanaRS-Insulin-Pump.md>
+   Accu Chek Combo </EN/Configuration/Accu-Chek-Combo-Pump.md>
+   Watchfaces </EN/Configuration/Watchfaces.md>
+   Preferences </EN/Configuration/Preferences.md>
+   Profiles </EN/Configuration/Profiles.md> 
+   Sensitivity Detection and COB </EN/Configuration/Sensitivity-detection-and-COB.md>
+   Objectives </EN/Usage/Objectives.md>
+   
+Troubleshooting
+------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   SMS Commands </EN/Usage/SMS-Commands.md>
+   Extended Carbs </EN/Usage/Extended-Carbs.md>
+   Tips and Tricks </EN/Usage/Tips-and-tricks.md>
+   Accessing log files </EN/Usage/Accessing-logfiles.md>
+   Dev branch </EN/Usage/Dev-branch.md>
+
+Where to go for help 
+------------
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   Background reading & interesting articles </EN/Where-To-Go-For-Help/Background-reading.md>
+   Where to go for help </EN/Where-To-Go-For-Help/Connect-with-other-users.md>
+
+   --->
+

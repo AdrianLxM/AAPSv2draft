@@ -10,9 +10,9 @@ Welcome to the Android APS documentation
    Designing_Your_Rig/index
    Nightscout/index
    AndroidAPSsoftware/index
-   configuration/index
-   troubleshooting/index
-   Where-To-Go-For-Help
+   Configuration/index
+   Troubleshooting/index
+   Where-To-Go-For-Help/index
 
 **What is AndroidAPS?**
 

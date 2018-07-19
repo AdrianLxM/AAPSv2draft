@@ -2,17 +2,17 @@ Welcome to the Android APS documentation
 ==============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
    
    Before-you-start/index
-   /Understanding_AndroidAPS/index
-   Designing_Your_Rig
-   Nightscout </Nightscout/index>
-   Building the AndroidAPS Software </AndroidAPSsoftware/index>
-   Configuring Your Rig </configuration/index>
-   Troubleshooting </troubleshooting/index>
-   Where to go for help </Where-To-Go-For-Help/index>
+   Understanding_AndroidAPS/index
+   Designing_Your_Rig/index
+   Nightscout/index
+   AndroidAPSsoftware/index
+   configuration/index
+   troubleshooting/index
+   Where-To-Go-For-Help
 
 **What is AndroidAPS?**
 

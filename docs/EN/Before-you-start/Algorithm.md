@@ -3,22 +3,22 @@
 This is based on an article by Katie DiSimone - you can find the orginal [here](https://loopkit.github.io/loopdocs/operation/algorithm/overview/)
 
 
-The reference documentation for the OpenAPS algorithm can be found [here](http://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/Understand-determine-basal.html)
+The reference documentation for the OpenAPS algorithm can be found [here](https://openaps.org/reference-design/)
 
 
 ## Overview
 
-Loop’s algorithm for adjusting insulin delivery is oriented around making a glucose prediction. Every five minutes, triggered by new BG data, it generates a new prediction. Both bolus recommendations and temporary basal rates are set based on this prediction.
+AndroidAPS’s algorithm for adjusting insulin delivery is oriented around making a glucose prediction. Every five minutes, triggered by new BG data, it generates a new prediction. Both bolus recommendations and temporary basal rates are set based on this prediction.
 
 ## Terminology
-This graph and legend illustrates terms commonly used in discussing Loop's algorithm, and shows them in the context of historical and forecasted BG in a style similar to the status screen of Loop.
+This graph and legend illustrates terms commonly used in discussing the algorithm, and shows them in the context of historical and forecast BG in a style similar to the overview screen of AndroidAPS.
 
 ![Terms](../images/terms_graph.png)
 
 Fig. 1 Chart illustrating terms
 
 #### Duration of Insulin Action (DIA)
-A configuration value that provides an estimate of how long insulin stays active after delivery.
+A configurated value that provides an estimate of how long insulin stays active after delivery.
 #### Correction Range
 This is the low and high BG values that Loop will attempt to keep you between.
 #### Predicted Glucose
@@ -28,11 +28,11 @@ The last value of the prediction.
 #### Minimum BG
 The lowest glucose value at any point in time within the prediction.
 #### Suspend Threshold
-A configuration value below which Loop will suspend all insulin delivery.
+A configurated value below which Loop will suspend all insulin delivery.
 #### CGM Data
 Actual glucose measurements made by a continuous glucose monitor.
 #### Insulin Sensitivity (ISF)
-A configuration value that provides an estimate of how much blood glucose will drop given a unit of insulin.
+A configurated value that represents an estimate of how much blood glucose will drop given a unit of insulin. When looping ISF will affect how aggressively the loop reacts to blood glucose variations. Too high a figure and it won't pull BG back towars the target strongly enough, too small a number and it will pull too hard and the loop will oscillate between zero temp and max temp leading to a fluctuating glucose level.
 
 ## Glucose Prediction⌁
 AndroidAPS makes a new glucose prediction every five minutes by computing the effects of insulin that has been administered from the pump, and carbohydrate records that have been entered into Loop. Two additional terms, glucose momentum, and optionally retrospective correction will also be used.
@@ -44,7 +44,7 @@ If blood glucose is predicted to stray outside of the desired target range, Loop
 
 ### Eventual BG Above Correction Range
 
-![](../images/eventual_bg_above_range.png)
+![Eventual BG Above Range](../images/eventual_bg_above_range.png)
 
 Fig 2. Eventual BG Above Range
 
@@ -52,7 +52,7 @@ When eventual BG is predicted to go above the current correction range, Loop wil
 
 ### Eventual BG Below Correction Range
 
-![](../images/eventual_bg_below_range.png)
+![Eventual BG Below Range](../images/eventual_bg_below_range.png)
 
 Fig 3. Eventual BG Below Range
 
@@ -60,16 +60,15 @@ When eventual BG is predicted to go below the current correction range, Loop wil
 
 ### Temporary Excursion Below Range
 
-Fig 4. ![](../images/temporary_excursion_below_range.png)
+![Temporary Excursion Below Range](../images/temporary_excursion_below_range.png)
 
-
-Eventual BG Below Range
+Fig 4. Temporary Excursion Below Range
 
 If the prediction has a temporary excursion below range, but Eventual BG is in range, Loop will revert to using your normal basal schedule, as long as Minimum BG is above the suspend threshold.
 
 ### Minimum BG Below Suspend Threshold
 
-![](../images/min_bg_below_guard.png)
+![Min BG Below Guard](../images/min_bg_below_guard.png)
 
 Fig 5. Min BG Below Guard
 

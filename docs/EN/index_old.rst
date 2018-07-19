@@ -39,73 +39,34 @@ AndroidAPS is an app that can communicate with bluetooth-enabled insulin pumps, 
 
 	Please note - this project has no association with and is not endorsed by: `SOOIL <http://www.sooil.com/eng/>`_, `Dexcom <http://www.dexcom.com/>`_, `Accu-Chek, Roche Diabetes Care <http://www.accu-chek.com/>`_.
 
-
-Before You Start
-----------------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-     
-   Safety First </EN/Before-you-start/Safety-first.md>
-   Reading List </Before-you-start/Reading List.md>
-   Glossary </EN/Before-you-start/Glossary.md>
-
-
-Understanding AndroidAPS
+Getting Started with AndroidAPS
 ----------------
 .. toctree::
    :maxdepth: 1
    :glob:
    
-   General Description
+   Safety First </EN/Getting-Started/Safety-first>
+   Screenshots </EN/Getting-Started/Screenshots.md>
+   Architcture, security implementation </EN/Getting-Started/Architecture-security-implementation.md>
+   Phone </EN/Getting-Started/Phones.md>
+   Pump choices </EN/Getting-Started/Pump-Choices.md>
+   Future possible pump drivers  </EN/Getting-Started/Future-possible-Pump-Drivers.md>
+   Glossary </EN/Getting-Started/Glossary.md>
+   How to help </EN/Getting-Started/How-can-I-help.md>
    
-   Screenshots screenshots explained </EN/Understanding_AndroidAPS/Screenshots.md>
-   AndroidAPS settings explained
-   Architecture, security implementation </EN/Understanding_AndroidAPS/Architecture-security-implementation.md>
-   Advanced Features
-   OpenAPS Features </EN/Understanding_AndroidAPS/Open-APS-features.md>
-
-   Pump choices </EN/Understanding_AndroidAPS/Pump-Choices.md>
-   Future possible pump drivers  </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
-   Glossary </EN/Understanding_AndroidAPS/Glossary.md>
-   
-Designing Your Rig
-----------------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   A Typical Rig
-   
-   Choosing Your Pump </EN/Designing_Your_Rig/Pump-Choices.md>
-   Blood Glucose source]</EN/Designing_Your_Rig/BG-Source.md>
-   Choosing a Phone </EN/Designing_Your_Rig/phones.md>
-   Adding a Smartwatch </EN/Designing_Your_Rig/watchfaces.md>
-
-Nightscout
-----------------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-     
-   Build Your Own
-   Using www.ns.10be.de 
-
   
-Building the Software
+How to Install AndroidAPS
 ------------
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   What you will need
-   Building the APK </EN/AndroidAPSsoftware/Building-APK.md>
-   Linking to your pump and CGM
-   Linking to Nightscout </EN/AndroidAPSsoftware/Nightscout.md>
-   Updating your app </EN/Update-to-new-version.md>
+   Building the APK </EN/Installing-AndroidAPS/Building-APK.md>
+   How to update to a new version </EN/Installing-AndroidAPS/Update-to-new-version.md>
+   Nightscout </EN/Installing-AndroidAPS/Nightscout.md>
+ 
    
-Configuring Your Rig 
+Configuration 
 ---------------
 .. toctree::
    :maxdepth: 1
@@ -118,16 +79,17 @@ Configuring Your Rig
    Accu Chek Combo </EN/Configuration/Accu-Chek-Combo-Pump.md>
    Watchfaces </EN/Configuration/Watchfaces.md>
    Preferences </EN/Configuration/Preferences.md>
-   Profiles </EN/Configuration/Profiles.md> 
    Sensitivity Detection and COB </EN/Configuration/Sensitivity-detection-and-COB.md>
-   Objectives </EN/Usage/Objectives.md>
    
-Troubleshooting
+Usage
 ------------
 .. toctree::
    :maxdepth: 1
    :glob:
-
+    
+   Objectives </EN/Usage/Objectives.md>
+   OpenAPS Features </EN/Usage/Open-APS-features.md>
+   Profiles </EN/Usage/Profiles.md>
    SMS Commands </EN/Usage/SMS-Commands.md>
    Extended Carbs </EN/Usage/Extended-Carbs.md>
    Tips and Tricks </EN/Usage/Tips-and-tricks.md>

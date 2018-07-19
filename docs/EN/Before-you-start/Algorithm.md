@@ -2,7 +2,6 @@
 
 This is based on an article by Katie DiSimone - you can find the orginal [here](https://loopkit.github.io/loopdocs/operation/algorithm/overview/)
 
-
 The reference documentation for the OpenAPS algorithm can be found [here](https://openaps.org/reference-design/)
 
 

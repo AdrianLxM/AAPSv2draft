@@ -53,7 +53,7 @@ Troubleshooting </EN/troubleshooting/index>
 Where to go for help </EN/Where-To-Go-For-Help/index>
 
 
-<!-- Before You Start
+<!--- Before You Start
 ----------------
 .. toctree::
    :maxdepth: 2
@@ -160,5 +160,5 @@ Where to go for help
    Background reading & interesting articles </EN/Where-To-Go-For-Help/Background-reading.md>
    Where to go for help </EN/Where-To-Go-For-Help/Connect-with-other-users.md>
 
-   -->
+   --->
 

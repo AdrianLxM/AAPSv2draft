@@ -78,7 +78,7 @@ Designing Your Rig
    A Typical Rig
    
    Choosing Your Pump </EN/Designing_Your_Rig/Pump-Choices.md>
-   Blood Glucose source]</EN/Designing_Your_Rig/BG-Source.md>
+   Blood Glucose source </EN/Designing_Your_Rig/BG-Source.md>
    Choosing a Phone </EN/Designing_Your_Rig/phones.md>
    Adding a Smartwatch </EN/Designing_Your_Rig/watchfaces.md>
 

@@ -43,18 +43,17 @@ AndroidAPS is an app that can communicate with bluetooth-enabled insulin pumps, 
 Before You Start
 ----------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
-     
+   
    Safety First </EN/Before-you-start/Safety-first.md>
-   Reading List </Before-you-start/Reading List.md>
+   Reading List </EN/Before-you-start/Reading_List.md>
    Glossary </EN/Before-you-start/Glossary.md>
-
 
 Understanding AndroidAPS
 ----------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
    
    General Description
@@ -67,35 +66,34 @@ Understanding AndroidAPS
    Pump choices </EN/Understanding_AndroidAPS/Pump-Choices.md>
    Future possible pump drivers  </EN/Understanding_AndroidAPS/Future-possible-Pump-Drivers.md>
    Glossary </EN/Understanding_AndroidAPS/Glossary.md>
-   
+
 Designing Your Rig
 ----------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
    
    A Typical Rig
    
    Choosing Your Pump </EN/Designing_Your_Rig/Pump-Choices.md>
-   Blood Glucose source </EN/Designing_Your_Rig/BG-Source.md>
+   Blood Glucose Source </EN/Designing_Your_Rig/BG-Source.md>
    Choosing a Phone </EN/Designing_Your_Rig/phones.md>
    Adding a Smartwatch </EN/Designing_Your_Rig/watchfaces.md>
 
 Nightscout
 ----------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
-   
-     
+        
    Build Your Own
    Using www.ns.10be.de 
 
   
-Building the Software
+Building the AndroidAPS Software
 ------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
    What you will need
@@ -107,7 +105,7 @@ Building the Software
 Configuring Your Rig 
 ---------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
    
    Config Builder </EN/Configuration/Config-Builder.md>
@@ -124,7 +122,7 @@ Configuring Your Rig
 Troubleshooting
 ------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
    SMS Commands </EN/Usage/SMS-Commands.md>
@@ -136,7 +134,7 @@ Troubleshooting
 Where to go for help 
 ------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
    Background reading & interesting articles </EN/Where-To-Go-For-Help/Background-reading.md>

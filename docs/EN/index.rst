@@ -56,12 +56,16 @@ Where to go for help </EN/Where-To-Go-For-Help/index>
    :maxdepth: 2
    :glob:
 
+<<<<<<< HEAD
    
    
    Safety First </EN/Before-you-start/Safety-first.md>
    Understanding the Algorithm </EN/Before-you-start/Algorithm.md>
    Reading List </EN/Before-you-start/Reading_List.md>
    Glossary </EN/Before-you-start/Glossary.md>
+=======
+   Before you Start </EN/Before-you-start/index>
+>>>>>>> f421e5f6083fe81bcdbcfa3d11531fc905bc767b
 
 Understanding AndroidAPS
 ----------------

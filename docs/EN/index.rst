@@ -45,6 +45,8 @@ Before You Start
 .. toctree::
    :maxdepth: 2
    :glob:
+
+   Before you Start </EN/Before-you-start/index>
    
    Safety First </EN/Before-you-start/Safety-first.md>
    Reading List </EN/Before-you-start/Reading_List.md>

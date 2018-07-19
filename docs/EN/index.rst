@@ -49,6 +49,7 @@ Before You Start
    Before you Start </EN/Before-you-start/index>
    
    Safety First </EN/Before-you-start/Safety-first.md>
+   Understanding the Algorithm </EN/Before-you-start/Algorithm.md>
    Reading List </EN/Before-you-start/Reading_List.md>
    Glossary </EN/Before-you-start/Glossary.md>
 

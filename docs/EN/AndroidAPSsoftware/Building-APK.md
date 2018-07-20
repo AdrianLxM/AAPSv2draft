@@ -3,8 +3,9 @@
 * Install [Android Studio](https://developer.android.com/studio/install.html).  
 * Use git clone in Android Studio as shown in screenshot below.
 
-![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot%201.png)
-![](https://github.com/RadoslavR/AndroidAPS/blob/master/Screenshot2.png)
+![](../images/Screenshot_git_clone.png)
+
+![](../images/Screenshot_git_clone_2.png)
 
 
 * Run Android Studio and select 'Open an existing Android Studio project', selecting the location of the extracted files.

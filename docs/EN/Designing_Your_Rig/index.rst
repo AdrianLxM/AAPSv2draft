@@ -10,3 +10,4 @@ Designing Your Rig
    Blood Glucose Source <BG-Source.md>
    Choosing a Phone <Phones.md>
    Adding a Smartwatch <Watchfaces.md>
+   Pump Choices <index_pumps.rst>

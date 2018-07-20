@@ -6,7 +6,7 @@ It is totally true that there is no one place to read How To Adjust Your Setting
 
 Before we start, let me say this in case it isn’t obvious…I’m not your medical professional, nor anyone else’s medical professional.  Don’t take my words as a substitution for conversations with your doctor.
 
-Ok…that warning provided…Think Like a Pancreas is a great reference for understanding some of the guiding principles in pump therapy.  Let me summarize the important parts:
+Ok…that warning provided… [Think Like a Pancreas](https://www.amazon.co.uk/Think-Like-Pancreas-Practical-Insulin-Completely/dp/0738215147) is a great reference for understanding some of the guiding principles in pump therapy.  Let me summarize the important parts:
 
 Basal rates should keep your BGs steady in the absence of other influences (such as food, medications, etc).
 Boluses should return your BGs to target after a meal.

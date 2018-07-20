@@ -1,4 +1,4 @@
-Welcome to the Android APS documentation
+AndroidAPS user documentation
 ==============================================
 
 .. toctree::

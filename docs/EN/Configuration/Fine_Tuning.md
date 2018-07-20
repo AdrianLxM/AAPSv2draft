@@ -45,7 +45,7 @@ If you absolutely don’t want to turn off your closed loop to test this…see i
 
 Insulin sensitivity factor (ISF) is the next logical setting to test.  If you’ve just done the basal test and gotten steady BGs with an open loop…try taking a glucose tab or two.  Wait for your BGs to be steady at the higher BG, and give a safe correction that you think will get you close to target.  Watch the resulting BG drop over the next 2-3 hours.  You should see BGs come to a steady level again.  How much did the BG drop?  How many units of insulin did you use?  Divide the two numbers and you will have your ISF.  If your BG dropped 15 mg/dl with half unit of insulin, your ISF is approximately 30 mg/dl/unit.
 
-If your ISF is too weak (in other words the actual number is too low compared to reality of how strong the insulin is) in closed-looping, one of the most common symptoms you’ll see is a roller coaster of BGs where the temp basals are cycling between zero and high temping.  I’m going to borrow a couple of example graphs from Looped group.  These are examples where too weak of ISF is more than likely a large factor in the roller-coaster (doesn’t mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temp basals followed by very quick BG drops and zero temps is usually too weak of ISF…raise the ISF number to help looping know that each unit of insulin is actually doing more BG dropping.
+If your ISF is too weak (in other words the actual number is too low compared to reality of how strong the insulin is) in closed-looping, one of the most common symptoms you’ll see is a roller coaster of BGs where the temp basals are cycling between zero and high temping.  I’m going to borrow a couple of example graphs from Looped group.  These are examples where too weak of ISF (ISF number too small) is more than likely a large factor in the roller-coaster (doesn’t mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temp basals followed by very quick BG drops and zero temps is usually too weak of ISF…raise the ISF number to help looping know that each unit of insulin is actually doing more BG dropping.
 
 ![](../images/19248027_10155510691426450_4212861104795372164_n.jpg)
 ![](../images/15591479_10154031400407115_2525671186696153617_o.jpg)
@@ -61,12 +61,11 @@ A bad carb ratio will leave you higher or lower than the starting point of the m
 
 For example, these are two examples of carb ratios being too strong.  In this first example, there’s 2.27 units of IOB and BGs are at 103 and headed down at a pretty good clip at about 2 hours after the meal.  If the next meal hadn’t been eaten then, low treatment certainly would’ve been needed.
 
-
 ![](../images/carbratio1.jpg)
 
 This next graph also shows too aggressive of a carb ratio.  Three hours after the meal, there’s nearly 0.50 units IOB, BG is well below where the meal started, and definitely low treatments needed.
 
-![](../images/carbratio2.jpg)
+![](../images/carbratio2.png)
 
 If you are finding that a correct carb ratio is yielding good BGs 3 hours later, but you aren’t happy with the peak BGs during the meal…then it may be time to explore increasing or adding prebolusing time to your meal or implementing “eating soon” targets an hour before meals to help control the post-meal BG spike.  Artificially strengthening carb ratios to help control post-meal BG spike will likely yield lows 2-3 hours after a meal.
 

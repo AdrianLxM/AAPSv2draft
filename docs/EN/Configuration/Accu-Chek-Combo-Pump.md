@@ -1,14 +1,12 @@
-# Accu Chek Combo Pump
+# Accu-Chek Combo Pump
 
-**This software is part of a DIY solution and is not a product, but
-requires YOU to read, learn and understand the system including how to use it.
-It is not something that does all your diabetes management for you, but
-allows you to improve your diabetes and your quality of life 
-if you're willing to put in the time required. Don't rush into it,
-but allow yourself time to learn. You alone are responsible for what
-you do with it.**
+The Roche Accu-Chek Combo pump is widely available and can now be used for looping. However, due to some vagaries of the Bluetooth interface you will need to use a phone with LineageOS 14.1 in order to pair with it. If you want all the technical details why you can find them [here](https://github.com/gregorybel/combo-pairing/blob/master/README.md).
 
-## Hardware requirements
+You will also need to install a second app known as [Ruffy](https://github.com/MilosKozak/ruffy). This emulates the Combo handset and issues the same commands that you would if you were using your handset.
+
+Having done that you will need to access the pump's configuration settings and make a few simple changes to enable it to work successfully in a loop. To do this you will need some configuration software and an interface cable - both freely available from Roche.
+
+## Hardware you will need
 
 - A Roche Accu-Chek Combo (any firmware, they all work)
 - A Smartpix or Realtyme device together with the 360 Configuration
@@ -72,9 +70,9 @@ Please be aware that this is not complete list and reflects personal user experi
     - Configure a max bolus suited for your therapy to protect against bugs in the software
     - Similarly, configure maximum TBR duration as a safeguard. Allow at least 3 hours, since
       the option to disconnect the pump for 3 hours sets a 0% for 3 hours.
-    - Enable key lock on the pump to prevent bolusing from the pump, esp. when the
-      pump was used before and quick bolusing was a habit.
-    - Set display timeout and menu timeout to the minimum of 5.5 and 5 respectively. This allows the AAPS to
+    - YOu may want to enable the key lock on the pump to prevent bolusing from the pump, esp. when the
+      pump was used before and quick bolusing was a habit. But be aware that if you do this and you become separated from the phone you use to run AndroidAPS then you won't be able to operate the pump manually.
+    - Set display timeout and menu timeout to the minimum of 5.5 and 5 respectively. This allows AndroidAPS to
       recover more quickly from error situations and reduces the amount of vibrations that can occur during
       such errors
 
@@ -86,11 +84,11 @@ Please be aware that this is not complete list and reflects personal user experi
 
 ![Screenshot of insulin cartridge settings](../images/combo/combo-insulin-settings.png)
 
-- Install AndroidAPS as described in the [AndroidAPS wiki](http://wiki.AndroidAPS.org) and use the `combo` branch.
+- Install AndroidAPS as described in this documentation.
 - Make sure to read the wiki to understand how to setup AndroidAPS.
 - Select the MDI plugin in AndroidAPS, not the Combo plugin at this point to avoid the Combo
-  plugin from interfering with ruffy during the pairing process.
-- Follow the link http://ruffy.AndroidAPS.org and clone ruffy via git. Use the same branch as you use for
+  plugin from interfering with Ruffy during the pairing process.
+- Follow the link http://ruffy.AndroidAPS.org and clone Ruffy via Git. Use the same branch as you use for
   AndroidAPS, right now that's the `combo` branch, later on there will be the regular `master` and `dev` branches.
 - Install ruffy and use it to pair the pump. If it doesn't work after multiple attempts, switch to the `pairing` branch, pair the pump and then switch back the original branch.
   If the pump is already paired and can be controlled via ruffy, installing the `combo` branch is sufficient.
@@ -98,16 +96,16 @@ Please be aware that this is not complete list and reflects personal user experi
   and may need a few attempts; quickly acknowledge prompts and when starting over, remove the pump device
   from the Bluetooth settings beforehand. Another option to try is to go to the Bluetooth menu after
   initiating the pairing process (this keeps the phone's Bluetooth discoverable as long as the menu is displayed)
-  and switch back to ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
+  and switch back to Ruffy after confirming the pairing on the pump, when the pump displays the authorization code.
   If you're unsuccessful in pairing the pump (say after 10 attempts), try waiting up to 10s before confirming the pairing on the pump (when the name of the phone is displayed on the pump). If you have configured the menu timeout to be 5s above, you need to increase it again. Some users reported they needed to do this.
-- When AAPS is using ruffy, the ruffy app can't be used. The easiest way is to just
-  reboot the phone after the pairing process and let AAPS start ruffy in the background.
-- If the pump is completely new, you need to do one bolus on the pump, so the pump creates a first history entry.
+- When AAPS is using ruffy, the Ruffy app can't be used. The easiest way is to just
+  reboot the phone after the pairing process and let AAPS start Ruffy in the background.
+- If the pump is completely new, you will need to do one bolus on the pump, so the pump creates a first history entry.
 - Before enabling the Combo plugin in AAPS make sure your profile is set up
   correctly and activated(!) and your basal profile is up to date as AAPS will sync the basal profile
   to the pump. Then activate the Combo plugin. Press the _Refresh_ button on the Combo tab to initialize the 
   pump.
-- To verify your setup, with the pump **disconnected**, use AAPS to set a TBR of 500% for 15 min and issue a bolus. The pump should now have a TBR running and the bolus in the history. AAPS should also show the active TBR and delivered bolus.
+- To verify your setup, with the pump **disconnected**, use AndroidAPS to set a TBR of 500% for 15 min and issue a bolus. The pump should now have a TBR running and the bolus in the history. AndroidAPS should also show the active TBR and delivered bolus.
 
 ## Usage
 
@@ -117,21 +115,20 @@ Please be aware that this is not complete list and reflects personal user experi
 - Read the OpenAPS documentation https://openaps.org to understand the loop algorithm AndroidAPS
   is based upon.
 - Read the wiki to learn about and understand AndroidAPS http://wiki.AndroidAPS.org
-- This integration uses the same functionality which the meter provides that comes with the Combo.
-  The meter allows to mirror the pump screen and forwards button presses to the pump. The connection
-  to the pump and this forwarding is what the ruffy app does. A `scripter` components reads the screen
-  and automates entering boluses, TBRs etc and making sure inputs are processed correctly.
-  AAPS then interacts with the scripter to apply loop commands and to administer boluses.
+- Ruffy provides the same functionality as the handset that comes with the Combo.
+  The handset mirrors the pump screen and relays button presses to the pump. The Ruffy app is needed to make this functionality available to AndroidAPS. A `scripter` components reads the screen
+  and automates entering boluses, TBRs and so on by simulating button presses and then checking the responses to make sure inputs are processed correctly.
+  AndroidAPS then interacts with the scripter to apply loop commands and to administer boluses.
   This mode has some restrictions: it's comparatively slow (but well fast enough for what it is used for),
   and setting a TBR or giving a bolus causes the pump to vibrate.
 - The integration of the Combo with AndroidAPS is designed with the assumption that all inputs are
-  made via AndroidAPS. Boluses entered on the pump directly will be detected by AAPS, but it can take
-  up to 20 min before AndroidAPS becomes aware of such a bolus. Reading boluses delivered directly on
+  made via AndroidAPS. Boluses entered on the pump directly will be detected by AndroidAPS when it checks the pump history, but it may take
+  up to 20 min before this happens. Reading boluses delivered directly on
   the pump is a safety feature and not meant to be regularly used (the loop requires knowledge of carbs
   consumed, which can't be entered on the pump, which is another reason why all inputs should be done
   in AndroidAPS). 
 - Don't set or cancel a TBR on the pump. The loop assumes control of TBR and cannot work reliably otherwise, since it's not possible to determine the start time of a TBR that was set by the user on the pump.
-- The pump's first basal rate profile is read on application start and is updated by AAPS.
+- The pump's first basal rate profile is read when AndroidAPS starts and is updated by the app as necessary.
   The basal rate should not be manually changed on the pump, but will be detected and corrected as a safety
   measure (don't rely on safety measures by default, this is meant to detect an unintended change on the pump).
 - It's recommended to enable key lock on the pump to prevent bolusing from the pump, esp. when the

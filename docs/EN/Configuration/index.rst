@@ -7,9 +7,7 @@ Configuring your rig
    
    Config Builder <Config-Builder.md>
    BG Source <BG-Source.md>
-   DanaR <DanaR-Insulin-Pump.md>
-   DanaRS <DanaRS-Insulin-Pump.md>
-   Accu Chek Combo <Accu-Chek-Combo-Pump.md>
+   Configuring Your Pump <index_pumps.rst>
    Watchfaces <Watchfaces.md>
    Preferences <Preferences.md>
    Profiles <Profiles.md> 

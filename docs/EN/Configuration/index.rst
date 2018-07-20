@@ -15,5 +15,5 @@ Configuring your rig
    Profiles <Profiles.md> 
    Sensitivity Detection and COB <Sensitivity-detection-and-COB.md>
    Objectives <Objectives.md>
-
+   Fine Tuning Your Rig <Fine_Tuning.md>
 

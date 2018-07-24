@@ -11,7 +11,6 @@ Configuring your rig
    Watchfaces <Watchfaces.md>
    Preferences <Preferences.md>
    Profiles <Profiles.md> 
-   Sensitivity Detection and COB <Sensitivity-detection-and-COB.md>
    Objectives <Objectives.md>
    Fine Tuning Your Rig <Fine_Tuning.md>
 

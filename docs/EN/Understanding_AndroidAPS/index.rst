@@ -10,5 +10,5 @@ Understanding AndroidAPS
    OpenAPS Features <Open-APS-features.md>
    Advanced features <Advanced Features>
    Super Micro Bolus
-   Extended Carbs <Sensitivity-detection-and-COB.md>
+   Sensitivity and Extended Carbs <Sensitivity-detection-and-COB.md>
 

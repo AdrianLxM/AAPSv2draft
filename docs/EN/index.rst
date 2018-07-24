@@ -11,9 +11,9 @@ A natural panchreas can react very quickly to changes in blood glucose, and it c
 
 Therefore an artificial panchreas system is to a large extent dependent on being able to make predictions of what your blood glucose is likely to do in the next few hours. You will need to tell it about carbs you are about to eat, about if you are about to exercise and so on. You will also need to configure it carefully with your basal profile, your various ratios and test them carefully. If you make the effort to understand all these things you can reasonably expect to see blood sugar results which approach those that a non-diabetic person would see.
 
-**What is AndroidAPS?**
+**About AndroidAPS**
 
-AndroidAPS is an app that can communicate with bluetooth-enabled insulin pumps, and runs a version of OpenAPS "oref0" algorithm.
+AndroidAPS is an app that runs a version of (OpenAPS "oref0" algorithm)<https://openaps.readthedocs.io/en/latest/> and can communicate with bluetooth-enabled insulin pumps and CGMs. 
 
 **Primary goals behind AndroidAPS:**
 

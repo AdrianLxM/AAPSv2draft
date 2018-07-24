@@ -13,7 +13,7 @@ Therefore an artificial panchreas system is to a large extent dependent on being
 
 **About AndroidAPS**
 
-AndroidAPS is an app that runs a version of (OpenAPS "oref0" algorithm)<https://openaps.readthedocs.io/en/latest/> and can communicate with bluetooth-enabled insulin pumps and CGMs. OpenAPS is an algorithm that has been developed independently of any pump or CGM manufacturer and whose underlying premise is that any manufacturer's CGM and any manufacturer's pump, given a suitable interface, could be used to build an artificial panchreas. You can read more about how the OpenAPS model works at the (OpenAPS Reference Design)<https://openaps.org/reference-design/>
+AndroidAPS is an app that runs a version of 'OpenAPS "oref0" algorithm https://openaps.readthedocs.io/en/latest/' and can communicate with bluetooth-enabled insulin pumps and CGMs. OpenAPS is an algorithm that has been developed independently of any pump or CGM manufacturer and whose underlying premise is that any manufacturer's CGM and any manufacturer's pump, given a suitable interface, could be used to build an artificial panchreas. You can read more about how the OpenAPS model works at the (OpenAPS Reference Design)<https://openaps.org/reference-design/>
 
 **Primary goals behind AndroidAPS:**
 
